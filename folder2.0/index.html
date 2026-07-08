@@ -3,96 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal portfolio</title>
-    <link rel="stylesheet" href="style3.css">
+    <title>Bakery</title>
+    <link rel="stylesheet" href="style.CSS">
 </head>
 <body>
-    <header>
-        <nav>
-         <h2 class="logo">Sagar kumar</h2>
-         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-         </ul>
-        </nav>
-    </header>
-    <section class="hero">
-            <div class="left">
-                <h1>Hello, I'm <span>Sagar Kumar</span></h1>
-                <h3>CSE student | future software Engineer.</h3>
-                <p>
-                    I'm a passionate computer science student learning  web development and DSA. My goal is to became a software engineer at a top product-based company.
-                </p>
-                <a href="#" class="btn">Download Resume</a>
-            </div>
-            <div class="right">
-                <img  src="sagar4.jpeg" alt="sagar">
-            </div>
-    </section>
-    <section id="about" class="card">
-        <h2>Abot Me</h2>
-        <p>Hii ! I'm <b>Sagar kumar</b> a computer science engineering student at Bit sindri . I enjoy solving problems  and building websites using HTML and CSS.Currently ,I am learning DSA in c++ and web development.My future goal is to became a software engineer and work in AI/ML .</p>
-    </section>
-    <section id="educcation" class="card">
-        <h2>Educaton</h2>
-        <ul>
-            <li><b>10th class marks(CBSE)</b>:82.8%</li>
-            <li><b>12th class marks(JAC)</b>:84.2%</li>
-            <li><b>Bachelor in engineering B.tech:2nd sem</b></li>
-        </ul>
-    </section>
-    <section id="skills" class="card">
-        <h2>Skills</h2>
-        <div class="skills">
-            <p>Html</p>
-            <progress max="100" value="100"></progress>
+  <nav>
+    <h2 class="logo">Sweet cake</h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button>Order Now</button>
+  </nav>
+  <section class="hero">
+    <div class="hero-text">
+        <h1>
+            Freshly Baked <br> 
+            Happiness Every Day.
+        </h1>
+        <p>
+            Discover delicius cake , pastrries and desserts made with love using the freshest ingredients. Every bite is a sweet celebration.
+        </p>
+    <div class="hero-btn">
+        <button class="btn1">Order Now</button>
+        <button class="btn2">View Menu</button>
+    </div>
+    </div>
+    <div class="hero-img">
+        <img src="pastry.jpg" alt="pastry">
+    </div>
+  </section>
+  <section class="featured">
+    <h2>Our Special treats</h2>
+    <div class="cards">
+        <div class="card">
+        <img src="choco.webp" alt="chocolate flavour">
+        <h3>Chocolate Cake</h3>
+        <p>Rich chocolate cake  with creamy frosting</p>
+        <h4>Rs.399</h4>
+        <button>Buy Now</button>
+    </div>
+    <div class="card">
+        <img src="strawberry.jpg" alt="Strawberry flavour">
+        <h3>Strawberry Cake</h3>
+        <p>Soft sponge with fresh strawberry cream.</p>
+        <h4>Rs.149</h4>
+        <button>Buy Now</button>
+    </div>
+    <div class="card">
+        <img src="butter.jpg" alt="Croissant">
+        <h3>Butter Croissants</h3>
+        <p>Freshly baked butter and flasky croissant.</p>
+        <h4>Rs.99</h4>
+        <button>Buy Now</button>
+    </div>
+    </div>
+  </section>
+  <section class="why-us">
+    <h2>Why Choose Us ??</h2>
+    <div class="features">
+        <div class="features-box">
+            <div class="icon">&#127856</div>
+            <h3>Fresh Everyday</h3>
+            <p> We bake every morning using  premium quality ingredients to ensure freshness.</p>
         </div>
-        <div class="skills">
-            <p>Css</p>
-            <progress max="100" value="100"></progress>
+        <div class="features-box">
+            <div class="icon">&hearts;</div>
+            <h3>Made With Love</h3>
+            <p> Every Cake and pastry is handcrafted with care to make your moments sweeter.</p>
         </div>
-        <div class="skills">
-            <p>javaScript</p>
-            <progress max="100" value="50"></progress>
+        <div class="features-box">
+            <div class="icon">&#128666</div>
+            <h3>Fast delivery</h3>
+            <p> Get your favorite deserts delivered quickly and safely to your doorstep.</p>
         </div>
-        <div class="skills">
-            <p>c language</p>
-            <progress max="100" value="100"></progress>
+    </div>
+  </section>
+  <section class="review">
+     <h2>What our customers says</h2>
+     <div class="review-container">
+        <div class="review-card">
+            <img src="ayy.jpeg" alt="ayush">
+            <h3>Ayush Gupta</h3>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <p>The chocolate cake was incredibely soft and delicious.I'll definetely order again!.</p>
         </div>
-        <div class="skills">
-            <p>DSA in c++</p>
-            <progress max="100" value="30"></progress>
+        <div class="review-card">
+            <img src="shh.jpeg" alt="shubhanshu">
+            <h3>Shubhanshu Raj</h3>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <p>Fast delivery and amazing taste.The pastries were fresh and  beautifully packed.</p>
         </div>
-    </section>
-    <section id="projects" class="card">
-        <h2>Projects</h2>
-        <ul>
-            <li>Personal  portfolio</li>
-            <li>Landing page</li>
-            <li>Calculator using html,css and javaScript</li>
-            <li>Amazon clone</li>
-        </ul>
-    </section>
-    <section id="hobbies" class="card">
-        <h2>Hobbies</h2>
-        <ul>
-            <li>Singing</li>
-            <li>Cricket</li>
-            <li>Volleyball</li>
-            <li>Reading Romance Novels or Exploring Romantic literature.</li>
-        </ul>
-    </section>
-    <section id="contact" class="card">
-        <h2>Contact me</h2>
-         <p>Email:sagar.kumar.camb@gmail.com</p>
-         <p>LinkedIn:<a a href="https://www.linkedin.com/in/sagar-kumar-307b8438a/">Visit profile</a></p>
-    </section>
-    <footer>
-        <p>&copy; 2026  sagar kumar | made with &hearts; using html and css.</p>
-    </footer>
+        <div class="review-card">
+            <img src="omm.jpeg" alt="Om">
+            <h3>Om  daaaa</h3>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <p>Loved the strawberry pastry ! Fresh , creamy and worth every rupee.</p>
+        </div>
+     </div>
+  </section>
+  <section class="newsletter">
+    <h2>Get Sweets update</h2>
+    <p>
+        Subscribe to recieve our latest offer , new cakes and special  discounts.
+    </p>
+    <div class="subscribe-box">
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+    </div>
+  </section>
+  <footer>
+    <h2>Sweet cake</h2>
+    <p>Baking happiness everyday with love and fresh ingredients.</p>
+    <div class="social-icons">
+        <a href="#">&#128214</a>
+        <a href="#">&#128247</a>
+        <a href="#">&#128038</a>
+        <a href="#">&#127909</a>
+    </div>
+    <p class="copyright">
+        &copy; 2026 sweet cake.All  right reserved.
+    </p>
+  </footer>
 </body>
 </html>
